@@ -1,0 +1,95 @@
+
+.home{
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./images/home1.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+
+#finesse{
+  font-family: 'Righteous', cursive;
+}
+
+#nav1, #nav2, #nav3, #nav4, #nav5, #nav6{
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+#nav1:hover, #nav2:hover, #nav3:hover, #nav4:hover, #nav5:hover, #nav6:hover{
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
+
+#home1, #home2{
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Register*/
+
+.body1{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(to right, #09C6F9, #045DE9);
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+}
+
+.containerReg{
+  max-width: 700px;
+  width: 100%;
+  padding: 25px 30px;
+  border-radius:  5px;
+}
+
+.containerReg .title{
+  font-size: 25px;
+  font-weight: 500 bold;
+  text-align: center;
+}
+
+.containerReg .title::before{
+  content:'';
+  position:  absolute;
+  left:  0;
+  bottom:  0;
+  height: 3px;
+  width: 30px;
+  background: linear-gradient(135deg, #09C6F9, #045DE9);
+}
+
+/*.containerReg form .user-details{
+  display: flex;
+  flex-wrap:  wrap;
+  justify-content: space-between;
+}
+*/
+form .userdetails .input-box{
+  margin-top:  25px;
+  margin-bottom: 15px;
+  width: calc(100%/2 - 20px);
+}
+
+.user-details .input-box .details{
+  display:  block;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline:  none;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding-left: 15px;
+  font-size: 16px;
+  margin-bottom: 11.5px;
+}
+
+
